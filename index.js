@@ -1,10 +1,8 @@
 const express = require("express");
 const app_server = require("./app");
 const router = express.Router();
-//https://webcodetwo.onrender.com/
-
 const  node_server= express()
-//require('dotenv').config();
+
 
 const port = process.env.PORT;
 
